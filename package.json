@@ -1,0 +1,41 @@
+{
+  "name": "alamdx",
+  "description": "Alamdx.js - JavaScript MDX OLAP library for Alasql database",
+  "version": "0.0.1",
+  "author": "Andrey Gershun <agershun@gmail.com>",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "alasql": "^0.0.23"
+    },
+  "devDependencies": {
+    "gulp-uglify": "^1.0.1"
+  },
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/agershun/alamdx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agershun/alamdx/issues"
+  },
+  "homepage": "https://github.com/agershun/alamdx",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mdx",
+    "alamdx",
+    "alasql",
+    "olap",
+    "parser",
+    "database",
+    "query"
+  ],
+  "license": "MIT"
+}
